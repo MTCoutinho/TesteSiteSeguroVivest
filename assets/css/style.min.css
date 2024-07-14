@@ -8898,9 +8898,9 @@ h2 {
   }
 }
 
-@media (max-width: 289px) {
+@media (max-width: 294px) {
   .home .card-chamada {
-    margin-left: 1%;
+    margin-left: 4%;
   }
 }
 
