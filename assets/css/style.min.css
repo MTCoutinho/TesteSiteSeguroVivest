@@ -8904,6 +8904,12 @@ h2 {
   }
 }
 
+@media (max-width: 277px) {
+  .home .card-chamada {
+    margin-left: -1%;
+  }
+}
+
 
 
 .home .card-chamada h1 {
