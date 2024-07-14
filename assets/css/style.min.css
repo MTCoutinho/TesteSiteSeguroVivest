@@ -8731,8 +8731,8 @@ h2 {
 
 @media (max-width: 575px) {
   .header-home .img-header {
-    width: -webkit-calc(100% + 110px) !important;
-    width: calc(100% + 110px) !important;
+    width: -webkit-calc(100% + 30px) !important;
+    width: calc(100% + 30px) !important;
     -webkit-transform: translateX(-15px);
     -ms-transform: translateX(-15px);
     transform: translateX(-15px);
@@ -8892,13 +8892,6 @@ h2 {
 
     }
 
-    @media(max-width:376px) {
-      .home .card-chamada {
-        height: 300px;
-        width: 200px;
-
-      }
-    }
 
     @media(max-width:321px) {
       .home .card-chamada {}
