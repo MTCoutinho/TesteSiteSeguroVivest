@@ -8894,7 +8894,9 @@ h2 {
 
 
     @media(max-width:321px) {
-      .home .card-chamada {}
+      .home .card-chamada {
+        margin-left: 7%;
+      }
     }
   }
 }
@@ -8917,7 +8919,8 @@ h2 {
 @media (max-width: 992px) {
   .home .card-chamada h1 {
     text-align: center;
-    font-size: 0.9rem
+    font-size: 0.9rem;
+    margin-top: 5px;
   }
 }
 
@@ -9013,7 +9016,7 @@ h2 {
 }
 
 .home .card-chamada .cha2 .card-ico {
-  padding-right: 20px
+  padding-right: 7px
 }
 
 .home .card-chamada .cha2 .card-ico img {
@@ -9024,11 +9027,14 @@ h2 {
   transition: opacity .5s
 }
 
+.card-ico-center{
+  margin-left: 15px;
+}
 
-.home .card-chamada .cha2 .card-ico-int {
+.home .card-chamada .cha2 .card-ico-int{
   height: auto;
-  max-width: 58px;
-  margin-bottom: 20px
+  max-width: 60px;
+  margin-bottom: 20px;
 }
 
 .home .card-chamada .cha2 .card-ico-adjust {
