@@ -20,15 +20,15 @@
   font-family: 'Semi-ExtraBold', 'Open Sans', verdana !important;
 }
 
-.tamanho3{
-  white-space: nowrap
+/* .tamanho3{
+  white-space: nowrap;
 }
 
 @media (max-width: 768px) {
   .tamanho3 {
     flex-wrap: wrap;
   }
-}
+} */
 
 /*!
  * Bootstrap Grid v4.1.2 (https://getbootstrap.com/)
@@ -9982,6 +9982,7 @@ h2 {
 
 @media (max-width: 575px) {
   .contato .box-answer {
+    margin-left: 5px;
     width: 94%;
     -webkit-border-radius: 25px;
     border-radius: 25px;
