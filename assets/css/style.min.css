@@ -5,10 +5,30 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'Campton-semiBold';
+  src: url(../fontes/Campton/Campton-SemiBold.otf) format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 .font-campton-ebold {
   font-family: 'Campton-ExtraBold', 'Open Sans', verdana !important;
 }
 
+.font-campton-sbold {
+  font-family: 'Semi-ExtraBold', 'Open Sans', verdana !important;
+}
+
+.tamanho3{
+  white-space: nowrap
+}
+
+@media (max-width: 768px) {
+  .tamanho3 {
+    flex-wrap: wrap;
+  }
+}
 
 /*!
  * Bootstrap Grid v4.1.2 (https://getbootstrap.com/)
@@ -8241,6 +8261,10 @@ button.bg-dark:focus {
   text-align: justify !important
 }
 
+.text-justify-center {
+  text-align: center !important;
+}
+
 .text-wrap {
   white-space: normal !important
 }
@@ -9262,7 +9286,11 @@ h2 {
 }
 
 .adesao .box-text {
-  padding: 100px 0 100px 60px
+  padding: 40px 0 100px 60px
+}
+
+.adesao .box-text-3 {
+  padding: 0px 0 100px 60px;
 }
 
 @media (max-width: 991px) {
@@ -9278,21 +9306,23 @@ h2 {
 }
 
 .adesao .bt-baixe {
-  background-color: #592a73;
-  border: 0;
-  color: #fff;
+  font-family: 'Campton-ExtraBold', 'Open Sans', verdana;
+  border: 3px solid #3C2E88;
+  color: #3C2E88;
   font-size: 1.4em;
   padding: 15px 30px;
-  -webkit-border-radius: 0 25px 0 25px;
-  border-radius: 0 25px 0 25px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
   text-decoration: none;
-  -webkit-transition: background .3s;
-  -o-transition: background .3s;
-  transition: background .3s
+  -webkit-transition: background .5s, color .2s;
+  -o-transition: background .5s, color .2s;
+  transition: background .5s, color .2s;
 }
 
 .adesao .bt-baixe:hover {
-  background-color: #ed1846
+  background-color: #3C2E88;
+    cursor: pointer;
+    color: #fff;
 }
 
 .adesao .bt-solid {
@@ -9432,6 +9462,7 @@ h2 {
 }
 
 @media (max-width: 575px) {
+  w
   .adesao .step .ad-title {
     background: none !important;
     -webkit-transform: translate(0, 0) !important;
@@ -9478,7 +9509,6 @@ h2 {
   width: 35px;
   height: 25px;
   background-color: #fff;
-  background-image: url("../img/tit-arrow2.png");
   background-position: top;
   -webkit-background-size: 16px 16px;
   background-size: 16px;
@@ -9522,7 +9552,7 @@ h2 {
 }
 
 .adesao .step .tit-red {
-  color: #ed1846
+  color: #E33E5A;
 }
 
 .adesao .step .tit-red span {
@@ -9530,7 +9560,7 @@ h2 {
 }
 
 .adesao .step .tit-purple {
-  color: #592a73
+  color: #3C2E88;
 }
 
 @media (max-width: 575px) {
@@ -9539,9 +9569,7 @@ h2 {
   }
 }
 
-.adesao .step .tit-purple .tit {
-  left: 30px
-}
+
 
 @media (max-width: 575px) {
   .adesao .step .tit-purple .tit {
@@ -9550,31 +9578,29 @@ h2 {
 }
 
 .adesao .step .tit-purple span {
-  background: #592a73
+  background: #3C2E88;
 }
 
 .adesao .step .bg-ball {
-  background-image: url("../img/tit-ball.png");
   background-position: right;
   background-repeat: no-repeat;
+  padding-left: 90px;
   -webkit-background-size: 16px 16px;
   background-size: 16px 16px
 }
 
 .adesao .step .bg-ball-arrow {
-  background-image: url("../img/tit-ball.png"), url("../img/tit-arrow.png");
   background-position: left, right;
   background-repeat: no-repeat;
   -webkit-background-size: 16px 16px;
   background-size: 16px 16px;
   padding-left: 90px;
-  -webkit-transform: translate(-30px, -50%);
-  -ms-transform: translate(-30px, -50%);
+  -webkit-transform: translate(-50px, -50%);
+  -ms-transform: translate(-90px, -50%);
   transform: translate(-30px, -50%)
 }
 
 .adesao .step .bg-arrow {
-  background-image: url("../img/tit-arrow.png");
   background-position: right;
   background-repeat: no-repeat;
   -webkit-background-size: 16px 16px;
@@ -9685,7 +9711,7 @@ h2 {
   transform: translateY(-50%);
   -webkit-border-radius: 25px;
   border-radius: 25px;
-  border: 2px dotted #ed1846;
+  border: 5px solid #E33E5A;
   padding: 0 30px 30px 30px;
   background: #fff
 }
@@ -9695,7 +9721,6 @@ h2 {
   display: block;
   width: 16px;
   height: 16px;
-  background-image: url("../img/tit-arrow.png");
   background-position: right;
   background-repeat: no-repeat;
   -webkit-background-size: 16px 16px;
@@ -9920,7 +9945,6 @@ h2 {
   -webkit-border-radius: 25px;
   border-radius: 25px;
   border: 7px solid #b6b6b66b;
-  /* box-shadow: 1px 5px 10px 10px rgba(185, 185, 185, 0.33); */
   position: relative
 }
 
@@ -9955,6 +9979,25 @@ h2 {
     min-width: 30px
   }
 }
+
+@media (max-width: 575px) {
+  .contato .box-answer {
+    width: 94%;
+    -webkit-border-radius: 25px;
+    border-radius: 25px;
+    border: 7px solid #b6b6b66b;
+    position: relative
+  }
+}
+
+@media (max-width: 321px) {
+  .contato .box-answer .ico {
+    display: none;
+  }
+}
+
+
+
 
 [data-aos][data-aos][data-aos-duration="50"],
 body[data-aos-duration="50"] [data-aos] {
