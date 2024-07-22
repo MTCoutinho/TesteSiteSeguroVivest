@@ -8732,27 +8732,6 @@ h2 {
   position: relative
 }
 
-@media (max-width: 575px) {
-  .header-home {
-    background-image: none
-  }
-}
-
-.header-home .img-header {
-  opacity: 0
-}
-
-@media (max-width: 575px) {
-  .header-home .img-header {
-    width: -webkit-calc(100% + 30px) !important;
-    width: calc(100% + 30px) !important;
-    -webkit-transform: translateX(-15px);
-    -ms-transform: translateX(-15px);
-    transform: translateX(-15px);
-    opacity: 1
-  }
-}
-
 
 .img-seguro {
   margin-left: 5%;
