@@ -8728,7 +8728,7 @@ h2 {
 }
 
 .header-home {
-  background-image: url("../img/banner-home-site.png");
+  background-image: url("../img/banner-home.png");
   position: relative
 }
 
@@ -9102,15 +9102,15 @@ h2 {
 }
 
 .home .card-chamada1 {
-  background-image: url("../img/banner-duvidas\ aqui.png")
+  background-image: url("../img/BG-card-duvidas.png")
 }
 
 .home .card-chamada2 {
-  background-image: url("../img/banner-faça\ sua\ simulação.png")
+  background-image: url("../img/BG-card-simulacao.png")
 }
 
 .home .card-chamada3 {
-  background-image: url("../img/banner-como\ contratar\ um\ seguro.png")
+  background-image: url("../img/BG-card-contratar.png")
 }
 
 .box-acesse {
@@ -9214,7 +9214,7 @@ h2 {
 }
 
 .header-perguntas {
-  background-image: url("../img/banner-portal_banner-perguntas-e-respostas-site.png");
+  background-image: url("../img/banner-perguntas-respostas.png");
   background-color: #ffffff
 }
 
@@ -9256,7 +9256,7 @@ h2 {
   right: 10px;
   height: 26px;
   width: 26px;
-  background-image: url("../img/banner-portal_Set\ DOWN.png");
+  background-image: url("../img/ico-seta-perguntas.png");
   -webkit-background-size: 100% auto;
   background-size: 100% auto;
   background-position: top;
@@ -9269,7 +9269,7 @@ h2 {
 
 
 .header-adesao {
-  background-image: url("../img/banner-portal_banner-simule-site.png");
+  background-image: url("../img/banner-adesao.png");
   background-color: #ffffff
 }
 
@@ -9906,7 +9906,7 @@ h2 {
 }
 
 .header-simule {
-  background-image: url("../img/banner-seguro-site.png");
+  background-image: url("../img/banner-simule.png");
   background-color: #ffffff
 }
 
@@ -10085,7 +10085,7 @@ h2 {
 }
 
 .header-contato {
-  background-image: url("../img/banner-portal_banner-contato-site.png");
+  background-image: url("../img/banner-contato.png");
   background-color: #ffffff
 }
 
