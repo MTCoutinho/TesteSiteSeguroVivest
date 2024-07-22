@@ -21,14 +21,6 @@
 }
 
 
-
-/* 
-@media (max-width: 769px) {
-  .tamanho3 {
-    flex-wrap: wrap;
-  }
-} */
-
 /*!
  * Bootstrap Grid v4.1.2 (https://getbootstrap.com/)
  */
@@ -185,9 +177,9 @@ sup {
 }
 
 a {
-  color: #007bff;
+  color: #1f03bd;
   text-decoration: none;
-  background-color: transparent
+  background-color: transparent;
 }
 
 
@@ -8907,6 +8899,12 @@ h2 {
   }
 }
 
+@media (max-width: 487px) {
+  .home .card-chamada {
+    margin-left: 12%;
+  }
+}
+
 @media (max-width: 430px) {
   .home .card-chamada {
     height: 350px;
@@ -9284,24 +9282,44 @@ h2 {
   max-width: 120px
 }
 
-.break-after::after {
+.break-after-info::after {
   content: '';
   display: inline;
 }
 
 @media (max-width: 769px) {
-  .break-after::after {
+  .break-after-info::after {
       content: '';
       display: block;
   }
 }
 
-.adesao .box-text {
+
+@media (min-width: 1200px) {
+  .broken4 {
+    white-space: nowrap;
+  }
+}
+
+@media (min-width: 769px) {
+  .broken3 {
+    white-space: nowrap;
+  }
+}
+
+
+.adesao .box-text{
   padding: 40px 0 100px 60px
 }
 
 .adesao .box-text-3 {
-  padding: 0px 0 100px 60px;
+  padding: 0px 0px 100px 60px;
+}
+
+@media (max-width: 1200px) {
+  .adesao .box-text-3 {
+    padding: 0px 0px 0px 60px;
+  }
 }
 
 @media (max-width: 769px) {
@@ -9310,21 +9328,39 @@ h2 {
   }
 }
 
-@media (max-width: 576px) {
+@media (max-width: 574px) {
   .adesao .box-text-3 {
     padding: 50px 0 100px 40px
   }
 }
 
-@media (max-width: 769px) {
+@media (max-width: 992px) {
   .adesao .box-text-4 {
     padding: 65px 0 100px 0px
   }
 }
 
-@media (max-width: 575px) {
+@media (max-width: 578px) {
   .adesao .box-text-4 {
     padding: 70px 10px 100px 40px
+  }
+}
+
+@media (max-width: 568px) {
+  .adesao .box-text-4 {
+    padding: 75px 10px 100px 40px !important
+  }
+}
+
+@media (max-width: 426px) {
+  .adesao .box-text-4 {
+    padding: 100px 10px 100px 40px !important
+  }
+}
+
+@media (max-width: 321px) {
+  .adesao .box-text-4 {
+    padding: 130px 10px 100px 40px !important
   }
 }
 
@@ -9619,6 +9655,14 @@ h2 {
   }
 }
 
+@media (max-width: 1199px) {
+  .adesao .step .ico-alert1 {
+    max-width: 60px;
+    margin-top: -25px ;
+    padding-bottom: 7px;
+  }
+}
+
 
 
 .adesao .step .tit-red {
@@ -9789,7 +9833,7 @@ h2 {
   border-radius: 25px;
   border: 5px solid #E33E5A;
   padding: 0 30px 30px 30px;
-  background: #fff
+  background: #fff;
 }
 
 .adesao .last-alert:before {
