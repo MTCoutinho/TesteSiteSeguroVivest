@@ -9312,21 +9312,52 @@ h2 {
 
 @media (max-width: 576px) {
   .adesao .box-text-3 {
-    padding: 35px 0 100px 60px
+    padding: 50px 0 100px 40px
   }
 }
 
 @media (max-width: 769px) {
   .adesao .box-text-4 {
-    padding: 65px 0 100px 60px
+    padding: 65px 0 100px 0px
   }
 }
 
 @media (max-width: 575px) {
   .adesao .box-text-4 {
-    padding: 55px 10px 100px 60px
+    padding: 70px 10px 100px 40px
   }
 }
+
+@media (max-width: 575px) {
+  .adesao .box-text-6 {
+    padding: 50px 10px 100px 40px
+  }
+}
+
+@media (max-width: 575px) {
+  .adesao .box-text-7 {
+    padding: 50px 10px 100px 40px
+  }
+}
+
+@media (max-width: 769px) {
+  .adesao .box-text-8 {
+    padding: 50px 0 100px 0px
+  }
+}
+
+@media (max-width: 321px) {
+  .adesao .box-text-2 {
+    padding: 50px 0 100px 0px
+  }
+}
+
+@media (max-width: 575px) {
+  .adesao .box-text-8 {
+    padding: 50px 10px 100px 40px
+  }
+}
+
 
 @media (max-width: 991px) {
   .adesao .box-text {
@@ -9336,7 +9367,7 @@ h2 {
 
 @media (max-width: 575px) {
   .adesao .box-text {
-    padding: 35px 0 100px 60px
+    padding: 50px 0 100px 40px
   }
 }
 
@@ -9582,9 +9613,13 @@ h2 {
 
 @media (max-width: 767px) {
   .adesao .step .ico-alert1 {
-    max-width: 50px
+    max-width: 70px;
+    margin-top: -90px ;
+    padding-bottom: 7px;
   }
 }
+
+
 
 .adesao .step .tit-red {
   color: #E33E5A;
